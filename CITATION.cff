@@ -48,27 +48,27 @@ version: 1.0.0
 date-released: "2026-09-09"
 repository-code: "https://github.com/aarondexz/SMART"
 
-preferred-citation:
-  type: article
-  title: >-
-    Closing the Microstructure-Quantification Loop with SMART
-    (Spatial Mapping And Robust Thermomagnetics)
-  authors:
-    - family-names: Dextre
-      given-names: Aaron
-    - family-names: Bezhad
-      given-names: M.
-    - family-names: Boddapaty
-      given-names: M.
-    - family-names: Geckil
-      given-names: I.
-    - family-names: Gutfleisch
-      given-names: O.
-    - family-names: Tozman
-      given-names: P.
-  year: 2026
+#preferred-citation:
+#  type: article
+#  title: >-
+#    Closing the Microstructure-Quantification Loop with SMART
+#    (Spatial Mapping And Robust Thermomagnetics)
+#  authors:
+#    - family-names: Dextre Zamalloa
+#      given-names: Aaron
+#    - family-names: Bezhad
+#      given-names: M.
+#    - family-names: Boddapaty
+#      given-names: M.
+#    - family-names: Geckil
+#      given-names: I.
+#    - family-names: Gutfleisch
+#      given-names: O.
+#    - family-names: Tozman
+#      given-names: P.
+#  year: 2026
 
-  journal: "TBD"
+#  journal: "TBD"
   # volume: 1
   # start: 1
   # doi: "10.xxxx/xxxxx"
