@@ -47,8 +47,6 @@ license: MIT
 version: 1.0.0
 date-released: "2026-09-09"
 repository-code: "https://github.com/aarondexz/SMART"
-# Uncomment once Zenodo has minted a DOI for your first release:
-# doi: "10.5281/zenodo.XXXXXXX"
 
 preferred-citation:
   type: article
@@ -69,8 +67,8 @@ preferred-citation:
     - family-names: Tozman
       given-names: P.
   year: 2026
+
   journal: "TBD"
-  # Fill these in once the paper is accepted:
   # volume: 1
   # start: 1
   # doi: "10.xxxx/xxxxx"
