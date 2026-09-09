@@ -1,0 +1,71 @@
+# =====================================================================
+#  SMART — .gitignore
+#  Rule of thumb: source and small config in git; builds, models and
+#  datasets go to GitHub Releases or Zenodo. Git keeps every version of
+#  every binary forever, so a committed 100 MB build never goes away.
+# =====================================================================
+
+# ---- Python ---------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+.Python
+*.egg-info/
+.pytest_cache/
+
+# ---- Jupyter --------------------------------------------------------
+.ipynb_checkpoints/
+# Notebooks store their output cells. If you keep any .ipynb in the repo,
+# clear all outputs before committing (Kernel > Restart & Clear Output).
+
+# ---- PyInstaller / packaged apps ------------------------------------
+# Attach these to a GitHub Release instead of committing them.
+build/
+dist/
+*.spec
+*.exe
+*.dll
+*.app/
+*.dmg
+*.AppImage
+
+# ---- Archives -------------------------------------------------------
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+
+# ---- Trained models and cached masks --------------------------------
+*.joblib
+*.pkl
+*.npz
+
+# ---- Bulk / raw data ------------------------------------------------
+# Small demo files in example_data/ are wanted: force them in with
+#     git add -f SEM_EDS/example_data/demo.tif
+*.tif
+*.tiff
+*.emsa
+*.msa
+outputs/
+Tc_Export_*/
+
+# ---- Office temp files ----------------------------------------------
+~$*.xlsx
+~$*.docx
+
+# ---- Editors and OS -------------------------------------------------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Logs -----------------------------------------------------------
+*.log

@@ -1,0 +1,76 @@
+cff-version: 1.2.0
+title: "SMART: Spatial Mapping And Robust Thermomagnetics"
+message: >-
+  If you use this software, please cite both the software itself
+  and the accompanying paper.
+type: software
+authors:
+  - family-names: Dextre
+    given-names: Aaron
+    email: aaron.dextre@tu-darmstadt.de
+    affiliation: "Functional Materials, Institute of Materials Science, TU Darmstadt"
+    # orcid: "https://orcid.org/0009-0008-7863-0375"
+  - family-names: Bezhad
+    given-names: M.
+    affiliation: "Functional Materials, Institute of Materials Science, TU Darmstadt"
+  - family-names: Boddapaty
+    given-names: M.
+    affiliation: "Functional Materials, Institute of Materials Science, TU Darmstadt"
+  - family-names: Geckil
+    given-names: I.
+    affiliation: "Functional Materials, Institute of Materials Science, TU Darmstadt"
+  - family-names: Gutfleisch
+    given-names: O.
+    affiliation: "Functional Materials, Institute of Materials Science, TU Darmstadt"
+  - family-names: Tozman
+    given-names: P.
+    affiliation: "Functional Materials, Institute of Materials Science, TU Darmstadt"
+abstract: >-
+  Open-source, human-in-the-loop framework that closes the loop between local
+  microstructure and macroscopic magnetic properties. A Random Forest trained on
+  sparse annotations segments SEM-EDS data, phase identities follow from
+  stoichiometric rules held in external JSON files, and an Isolation-Forest
+  anomaly map flags unclassified regions. An independent module extracts Curie
+  temperatures from M(T) curves by automated dual-tangent intersection. The two
+  modules run standalone or merge into one correlative database linking phase
+  fractions, chemistry and magnetic transitions.
+keywords:
+  - materials characterisation
+  - scanning electron microscopy
+  - energy-dispersive X-ray spectroscopy
+  - image segmentation
+  - random forest
+  - Curie temperature
+  - permanent magnets
+  - human-in-the-loop
+license: MIT
+version: 1.0.0
+date-released: "2026-09-09"
+repository-code: "https://github.com/INSERT-USER/SMART"
+# Uncomment once Zenodo has minted a DOI for your first release:
+# doi: "10.5281/zenodo.XXXXXXX"
+
+preferred-citation:
+  type: article
+  title: >-
+    Closing the Microstructure-Quantification Loop with SMART
+    (Spatial Mapping And Robust Thermomagnetics)
+  authors:
+    - family-names: Dextre
+      given-names: Aaron
+    - family-names: Bezhad
+      given-names: M.
+    - family-names: Boddapaty
+      given-names: M.
+    - family-names: Geckil
+      given-names: I.
+    - family-names: Gutfleisch
+      given-names: O.
+    - family-names: Tozman
+      given-names: P.
+  year: 2026
+  journal: "TBD"
+  # Fill these in once the paper is accepted:
+  # volume: 1
+  # start: 1
+  # doi: "10.xxxx/xxxxx"
